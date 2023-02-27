@@ -1,0 +1,272 @@
+*{
+    margin :0px;
+    box-sizing: border-box;
+    padding : 0;
+    height : auto;
+}
+/* location element */
+.content__container{
+    margin-top: 80px;
+}
+.container__pagelocation--all{
+   margin : 10px 15px;
+}
+.container__pagelocation{
+    text-decoration: none;
+    color:rgb(32, 32, 32);
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+    margin : 0 10px;
+}
+/* item detail element */
+.content__container__item--detail{
+    display : flex;
+}
+.content__container__item__imgs--scroll{
+    /* height: 660px;
+    overflow:scroll; */
+    width:calc(66.66666666666667% - 30px);
+    margin : 50px 15px;
+    height :auto;
+}
+.imgs__gallery{
+    list-style: none;
+    width : 100%;
+    display : flex;
+    flex-wrap: wrap;
+}
+.imgs__gallery--block{
+    width : calc(50% - 20px);
+    margin : 3px 5px;
+}
+/* .imgs__gallery--link{
+    width : calc(50% - 20px);
+    margin : 3px 5px;
+} */
+
+.content__container__item__img--link{
+    width :100%;
+}
+.content__container__item--title{
+    font-family: 'Roboto Flex', sans-serif;
+    color: #121212;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+/* item in4 fixed element */
+/* #content__container__item__in4--fixed{
+    position:fixed;
+    z-index: 999;
+    background-color: white;
+    margin-right: 25px;
+} */
+/* item in4 element */
+.content__container__item--menu{
+    width : calc(33.333333333333334% - 30px);
+    background-color: #ffffff;
+    margin : 53px 25px 0px 25px;
+    z-index: 100;
+    position : relative;
+    transition : .5s;
+}
+.content__container__item__in4__text{
+    font-family: 'Roboto Flex', sans-serif;
+    color: #282828;
+    margin : 0px 20px;
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+.content__container__item__in4__text--brand{
+    font-size : 13px;
+}
+.content__container__item__in4__text--name{
+    font-size: 18px;
+    font-weight: 600;
+    margin : 10px 0;
+}
+.content__container__item__in4__text--price{
+    font-size: 17px;
+    font-weight: 600;
+    margin : 10px 0px;
+}
+.content__container__item__in4__list--type{
+    display : flex;
+    list-style: none;
+    margin : 0 20px;
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+.content__container__item__in4__list__img--block{
+    width : 40px;
+    height : 50px;
+    border : 2px solid black;
+    margin : 20px 0px;
+    overflow : hidden;
+}
+.content__container__item__in4__list__img{
+    height  :100%;
+    text-align : center;
+}
+.content__container__item__in4__size{
+    margin : 0 20px;
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+.content__container__item__in4__size__list{
+    margin : 20px 0;
+    list-style: none;
+    display : flex;
+}
+.content__container__item__in4__size__list--tick{
+    height : 35px;
+    width : 35px;
+    background-color: black;
+    border : 1px solid black;
+    margin-right:10px;
+    color : white;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.content__container__item__in4__size__list--tick:hover{
+    background-color: rgb(162, 162, 162);
+    transition :.3s;
+}
+.size__tutorial--link{
+    color: #282828;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.size__tutorial--modelin4{
+    color: #5d5d5d;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+}
+.size__tutorial--modelin4 p {
+    margin : 15px 0;
+}
+.content__container__item__in4__buy--btn{
+    margin: 20px 20px;
+    width : calc(100% - 40px);
+    height : 50px;
+    background-color: black;
+    color : white;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+.content__container__item__in4__more{
+    margin : 0px 20px;
+}
+.content__container__item__in4__more--all{
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+.content__container__item__in4__more--aboutitem{
+    display :flex;
+    padding : 20px 0px;
+    justify-content: space-between;
+    border : none;
+    background-color: transparent;
+    width : 100%;
+}
+.content__container__item__in4__more--aboutitem p{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+    color: #5d5d5d;
+}
+.content__container__item__in4__more--aboutitem i {
+    font-size: 13px;
+    color: #5d5d5d;
+}
+.content__container__item__in4__more--text{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+    color: #5d5d5d;
+    margin : 10px 0;
+}
+.content__container__item__in4__more--text p{
+    margin : 7px 0;
+}
+.social__web{
+    display : flex;
+    justify-content: space-between;
+    margin : 20px 0;
+}
+.social__web--text{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+    color: #5d5d5d;
+}
+.social__web--link{
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 16px;
+}
+.social__web--link i {
+    margin : 0 5px;
+}
+/* another item element */
+.content__container__item__another--items{
+    display: flex;
+    margin : 25px 0;
+}
+.item__block{
+    width: calc(25% - 40px );
+    overflow: hidden;
+    margin : 0px 20px;
+}
+.item__img{
+    width :100%;
+}
+.item__block__link{
+    position: relative;
+}
+.item__block__detail{
+    position: absolute;
+}
+.item__block__link:hover .item__block__swatch--list{
+    transform:none;
+}
+.item__block__swatch--list{
+    min-height: 80px;
+    width : 100%;
+    background-color: white;
+    position: absolute;
+    bottom  :0;
+    transform:translate(0,100%);
+    transition: .7s;
+}
+.item__all__color{
+    margin:0px;
+    padding : 0;
+    display: flex;
+    justify-content:center;
+    list-style: none;
+}
+.item__all__color--img{
+    height:60px;
+    margin : 10px;
+}
+.item__all__color--img:hover{
+    border:1px solid red;
+}
+.item__block__detail--brand,.item__block__detail--link,.item__block__detail--price{
+    font-family: 'Roboto Flex', sans-serif;
+    color: #353535;
+    text-decoration: none;
+}
+.item__block__detail--brand{
+    font-size: 11px;
+    margin :6px 0;
+}
+.item__block__detail--link{
+    font-weight: bold;
+    font-size: 11px;
+    margin : 0;
+}
+.item__block__detail--price{
+    font-size: 13px;
+    margin : 6px 0;
+}
+.item__block__detail--name{
+    margin : 0;
+}

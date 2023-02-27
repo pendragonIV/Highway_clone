@@ -1,0 +1,201 @@
+.content__container--in4{
+    display : flex;
+    justify-content: space-between;
+}
+/* cart css */
+.content__container__cart{
+    flex:3;
+}
+.content__container__cart--title{
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.container__list__empty{
+    text-align: center;
+}
+.container__list__empty__back{
+    display  :flex;
+    font-family: 'Roboto Flex', sans-serif;
+    justify-content: center;
+}
+.container__list__empty__back a{
+    margin : 0 5px;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgb(32, 32, 32);
+}
+.container__list__empty__back i{
+    font-size: 11px;
+    margin  :auto 0;
+    color:rgb(32, 32, 32);
+}
+
+.container__list__item{
+    display: flex;
+    margin : 20px 0;
+}
+.container__list__item__img--block{
+    flex : 1;
+    margin : auto 0px;
+    margin-left: 20px;  
+}
+.container__list__item__img--block img{
+    width : 100%;
+}
+.container__list__item__detail{
+    flex : 7;
+    display : flex;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.container__list__item__detail--name{
+    flex:3;
+    margin: auto 10px;
+}
+.container__list__item__detail--code{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(167, 167, 167);
+}
+.container__list__item__detail--amount{
+    flex:1;
+    margin-top: 70px;
+    display: flex;
+}
+.container__list__item__detail--amount-all{
+    border :1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+}
+.container__list__item__detail--btn{
+    width:30px;
+    height:30px;
+    background-color: transparent;
+    border:none;
+}
+.list__item--input{
+    width:30px;
+    height:24px;
+    border :1px solid rgb(167, 167, 167);
+    border-top:none;
+    border-bottom:none;
+    text-align: center;
+}
+.container__list__item__detail--price{
+    flex:1;
+    margin: auto 0;
+    text-align: center;
+    font-weight: bold;
+}
+.container__list__item__detail--total{
+    flex:1;
+    margin: auto 0;
+    text-align: center;
+    margin-right: 50px;
+}
+.container__list__item__detail--total-price{
+    color:rgb(128, 30, 30);
+    font-weight: bold;
+    font-size: 13px;
+}
+.container__list__item__detail--title{
+    color:rgb(32, 32, 32);
+    margin:5px;
+    font-size: 13px;
+}
+.delete--item{
+    background-color: transparent;
+    border:none;
+    font-size: 11px;
+}
+.delete--item:hover{
+    color:rgb(167, 167, 167);
+}
+.container__note{
+    display : flex;
+    margin: 50px 0;
+}
+.container__note__input{
+    flex:1;
+    margin-left: 20px;
+}
+.container__note__input--place{
+    width:90%;
+    height:100px;
+}
+.container__note__customer{
+    margin-top: 35px;
+    flex:1;
+    margin-right: 30px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+    color:rgb(32, 32, 32);
+}
+.container__note__customer a{
+    text-decoration: none;
+    color:rgb(128, 30, 30);
+    font-weight: bold;
+}
+/* check css */
+.content__container__check{
+    flex:1;
+    margin:0 5px;
+    margin-top: 30px;
+}
+.content__container__check__back{
+    display  :flex;
+    justify-content: flex-end;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-bottom: 10px;
+}
+.content__container__check__back a{
+    margin : 0 5px;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgb(32, 32, 32);
+}
+.content__container__check__back i{
+    font-size: 11px;
+    margin  :auto 0;
+    color:rgb(32, 32, 32);
+}
+.content__container__check__table{
+    border: 1px solid rgb(162, 162, 162);
+    padding  :15px;
+}
+.content__container__check__table--title{
+    font-family: 'Roboto Flex', sans-serif;
+    color  :black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.content__container__check__table--price{
+    display : flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.text--nomal{
+    margin :20px 0;
+    font-size: 13px;
+    color:rgb(32, 32, 32);
+    font-family: 'Roboto Flex', sans-serif;
+}
+.text--bold{
+    margin :20px 0;
+    font-size: 13px;
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: bold;
+}
+.content__container__check__table--paybtn{
+    width:100%;
+    height: 40px;
+    background-color: black;
+    font-family: 'Roboto Flex', sans-serif;
+    color  :rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

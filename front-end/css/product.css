@@ -1,0 +1,189 @@
+/* Dễ dàng sử dụng Drive của tôi thông qua các lối tắt … 
+Trong những tuần tới, các mục trong nhiều thư mục sẽ được thay thế bằng lối tắt. Quyền truy cập vào các tệp và thư mục sẽ không thay đổi.Tìm hiểu thêm
+product.css
+Người có quyền truy cập
+n
+Thuộc tính hệ thống
+Loại
+Biểu định kiểu
+Kích thước
+3 KB
+Bộ nhớ đã sử dụng
+3 KB
+Vị trí
+web_ban_hang
+Chủ sở hữu
+nguyễn anh
+Lần sửa đổi gần đây nhất
+17:07 do nguyễn anh thực hiện
+Đã mở
+23:45 do tôi thực hiện
+Người tạo
+17:08
+Không có mô tả nào
+Người xem có thể tải xuống */
+body{
+    margin : 50px 0px;
+    box-sizing: border-box;
+    padding : 0;
+}
+.container__pagelocation{
+    background-color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.5px;
+    color: #8e9294;
+    padding: 12px 15px;
+}
+.container__pagelocation--home{
+    text-decoration: none;
+    color:black;
+}
+.container__body{
+    margin : 50px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.body__filter{
+    border-top: 1px solid #8e9294 ;
+    width : 15%;
+}
+.body__filter__list{
+    margin : 10px 0px;
+}
+.body__filter--title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin:0;
+    padding-top:4px;
+}
+.filter__parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.fa-angle-down-button{
+    border:none;
+    background-color: transparent;
+    cursor:pointer;
+}
+.body__filter__list--link{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #8e9294;
+    font-size: 12px;
+    padding-top: 3px;
+}
+.fa-solid {
+    color: #1c1c1c;
+    font-size: 11px;
+}
+.body__filter__list--option{
+    list-style: none;
+    text-decoration: none;
+    padding-left:20px;
+}
+.filter__list--tickoption{
+    border-top: 1px solid #8e9294 ;
+}
+.filter__list--tick{
+    padding :0;
+}
+.filter__tick--option{
+    display:flex;
+    margin : 2px 0px;
+}
+.filter__tick--place{
+    width:15px;
+    height:15px;
+    border: 1px solid black;
+}
+.filter__tick--modifier{
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+.body__items__arrange{
+    display: flex;
+    justify-content: flex-end;
+}
+.body__items__arrange--option{
+    border: none;
+    border-bottom: 1px solid #8e9294;
+    font-family: 'Open Sans', sans-serif;
+    color: #8e9294;
+    height:34px;
+}
+.body__items{
+    width :85%;
+}
+.body__items__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item__block{
+    width : calc( 33.333333333333334% - 30px);
+    margin:40px 0;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.item__img{
+    width : 100%;
+}
+.item__block__link{
+    position: relative;
+}
+.item__block__link:hover .item__block__swatch--list{
+    transform:none;
+}
+.item__block__swatch--list{
+    min-height: 100px;
+    width : 100%;
+    background-color: white;
+    position: absolute;
+    overflow: hidden;
+    bottom  :0;
+    transform:translate(0,100%);
+    transition: .7s;
+}
+.item__all__color{
+    margin:0px;
+    padding : 0;
+    display: flex;
+    justify-content:center;
+    list-style: none;
+}
+.item__all__color--img{
+    height:80px;
+    margin : 10px;
+}
+.item__all__color--img:hover{
+    border:1px solid red;
+}
+.item__block__detail{
+    position: absolute;
+    overflow: hidden;
+}
+.item__block__detail--brand,.item__block__detail--link,.item__block__detail--price{
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    text-decoration: none;
+}
+.item__block__detail--brand{
+    font-size: 11px;
+    margin :7px 0;
+}
+.item__block__detail--link{
+    font-weight: bold;
+    font-size: 12px;
+    margin : 0;
+}
+.item__block__detail--price{
+    font-size: 14px;
+    margin : 7px 0;
+}
+.item__block__detail--name{
+    margin : 0;
+}
